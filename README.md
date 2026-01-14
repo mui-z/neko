@@ -15,22 +15,13 @@
 
 ## Installation
 
-### Homebrew
-
-```sh
-brew tap mui-z/neko https://github.com/mui-z/neko.git
-brew install neko
-```
-
-The tap consumes the formula in `Formula/neko.rb` and installs the built binary into `$(brew --prefix)/bin/neko`.
-
 ### Mint
 
 ```sh
 mint install mui-z/neko
 ```
 
-Mint will build the latest tagged release; pass a version (`mint install mui-z/neko@1.0.0`) to pin your toolchain.
+Mint will build the latest tagged release; pass a version (`mint install mui-z/neko@1.0.3`) to pin your toolchain.
 
 ## Running the Server
 
